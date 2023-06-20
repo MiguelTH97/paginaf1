@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(/imagenes/fondoántalla.jfif);
+}
+
+/* BARRA NAVEGACION INICIO */
+
+.logo{
+    margin-top: 15px;
+    height: 40px;
+    width: 180px;
+    }
+    
+    .menu1{
+        -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.15);
+        -moz-box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.15);
+        box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.15);
+        margin-top: 1px;
+        display: flex;
+        width: 100%;
+        background-color: #DA0707;
+        height: 70px;
+    }
+    
+    .menu1 ul{
+        list-style: none;
+       
+    }
+    
+    .menul > li{
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    }
+    
+    .menul > li > a{
+    height: 30px;
+    color: #ffffff;
+    display: block;
+    padding: 15px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    
+    }
+    
+    
+    
+    /*submenu*/
+    
+    .submenu{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+        background: #1B1F22;
+        width: 120%;
+        display: none;
+    }
+    
+    
+    .submenu  li  a{
+    display: block;
+    padding: 15px;
+    color: #e8e8e8;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    }
+    
+    .submenu  li:hover{
+    color: #e8e8e8;
+    transition: all .3s;
+    }
+    
+    
+    .menul  li:hover .submenu{
+    display: block;
+    }
+
+/* ic */
+.ic{
+    padding-top: 20px;
+    background-color: rgb(52, 51, 57);
+    height: 25px;
+}
+
+.ic-c{  
+margin-left: 42%;
+font-family:Arial, Helvetica, sans-serif;
+color: #e8e8e8;
+text-decoration: none;
+
+}
+.ic-c:hover{
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #ff0000;
+}
+.ic-d{
+    margin-left: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #e8e8e8;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color: #ff0000;
+    padding-bottom: 5px;
+    }
+    
+/* pie de pagina */
+.pie-e{
+    border-top-style: solid;
+    border-color: rgb(75, 78, 81);
+    border-width: 1px;
+    width: 80%;
+    margin-left: 10%;
+    
+    }
+    
+    .pie-c{
+        font-family:Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        width: 280px;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 73%;
+    }
+     .pie{
+        
+        font-size: 15px;
+        margin-top: 5px;
+        color: #ffffff;
+        font-family:Arial, Helvetica, sans-serif;
+     }
+    .pie-pagina{
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.15);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.15);
+        box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.15);
+        text-align: center;
+        background-color: #04050f;
+        height: 100px;
+        border-top: solid;
+        border-color: #81818179;
+    }
+
+
+/* login */
+    #contenedor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0;
+        
+        min-height: 71vh;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #central {
+        max-width: 320px;
+        width: 100%;
+    }
+    
+    .titulo {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 200%;
+        color:#000000;
+        text-align: center;
+        margin-bottom: 20px;
+        border-bottom-style: solid;
+        border-color: #DA0707;
+    }
+    
+    #login {
+        width: 100%;
+        padding: 30px 30px;
+        background-color: #ffffff6d;
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.15);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.15);
+        box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.15);
+        border-color: #ff0000;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        box-sizing: border-box;
+    }
+    
+    select, option{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 110%;
+        color: #1b262c;
+        
+        display: block;
+        width: 100%;
+        height: 40px;
+        
+        margin-bottom: 10px;
+        padding: 5px 5px 5px 10px;
+        
+        box-sizing: border-box;
+        
+        border: none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    
+
+    #login input {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 110%;
+        color: #1b262c;
+        
+        display: block;
+        width: 100%;
+        height: 40px;
+        
+        margin-bottom: 10px;
+        padding: 5px 5px 5px 10px;
+        
+        box-sizing: border-box;
+        
+        border: none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    
+    #login input::placeholder {
+        font-family:Arial, Helvetica, sans-serif;
+        color: #373737;
+    }
+    
+    #login button {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 110%;
+        color:#ffffff;
+        width: 100%;
+        height: 40px;
+        border: none;
+        
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        
+        background-color: #ff0000;
+        
+        margin-top: 10px;
+    }
+    
+    #login button:hover {
+        background-color: #ffffff;
+        color:#000000;
+        border-style: solid;
+        border-color: red;
+    }
+    
+    .pie-form {
+        font-size: 90%;   
+        margin-top: 15px;
+    }
+    .correo{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .perdiste{
+       width: 154px;
+        border-bottom-style: solid;
+        border-color: #DA0707;
+        border-width: 2px;
+        margin-left: 22%;
+    }
+
+    .registrate{
+        margin-left: 35%;
+        width: 85px;
+        border-bottom-style: solid;
+        border-color: #DA0707;
+        border-width: 2px;
+    }
+    
+    .pie-form a {
+        font-family:Arial, Helvetica, sans-serif;
+        display: block;
+        text-decoration: none;
+        color: #000000;
+        margin-bottom: 3px;
+    }
+    
+    .pie-form a:hover {
+        color: #343434;
+    }
+    
+    .inferior {
+        margin-top: 10px;
+        font-size: 90%;
+        text-align: center;
+    }
+    
+    .inferior a {
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+        display: block;
+        text-decoration: none;
+        color: #040404;
+        margin-bottom: 3px;
+        width: 45px;
+        border-bottom-style: solid;
+        border-color: #DA0707;
+        border-width: 2px;
+        margin-left: 43%;
+    }
+    
+    .inferior a:hover {
+        width: 45px;
+        border-bottom-style: solid;
+        border-color: #DA0707;
+        border-width: 2px;
+        margin-left: 43%;
+    }
+    
+
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+   /* color barra */
+   .equipor:hover{
+    color:#2f00ff; 
+    transition: all .3s;
+    border-bottom: solid;
+            border-color: #2f00ff;
+}
+
+.equipof:hover{
+    color:#ff0000;
+    transition: all .3s;
+border-bottom: solid;
+    border-color: #ff0000;
+}
+
+.equipom:hover{
+color:#14d8ff;
+transition: all .3s;
+border-bottom: solid;
+border-color: #14d8ff;
+}
+
+.equipomc:hover{
+color:#f98407;
+transition: all .3s;
+border-bottom: solid;
+border-color: #f98407;
+}
+
+.equipoal:hover{
+color:#0788f9;
+transition: all .3s;
+border-bottom: solid;
+border-color: #0788f9;
+}
+
+.equipoath:hover{
+color:#8a95fe;
+transition: all .3s;
+border-bottom: solid;
+border-color: #8a95fe;
+}
+
+.equipoar:hover{
+color:#8d0000;
+transition: all .3s;
+border-bottom: solid;
+border-color: #8d0000;
+}
+
+.equipoat:hover{
+color:#00b50f; 
+transition: all .3s;
+border-bottom: solid;
+border-color: #00b50f;
+}
+
+.equipow:hover{
+color:#3618cd; 
+transition: all .3s;
+border-bottom: solid;
+border-color: #3618cd;
+}
+
+.equipoh:hover{
+color:#5c5c5c;
+transition: all .3s;
+border-bottom: solid;
+border-color: #5c5c5c;
+}
+
